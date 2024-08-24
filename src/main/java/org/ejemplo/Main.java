@@ -147,16 +147,23 @@ public class Main {
       CadenaServicio cs = new CadenaServicio();
       Cadena cadena1 = cs.crearCadena();
 
-      System.out.println("Ingrese una frase");
-      cadena1.setFrase(sc.nextLine());
-      cadena1.setLargo(cadena1.getFrase().length());
+//    System.out.println("Ingresar un caracter a reemplazar por la letra A");
+//    String caracter = sc.next();
 
+//          System.out.println("Ingrese una frase");
+//          String fraseNueva = sc.nextLine();
 
-      cs.mostrarVocales(cadena1);
-      cs.invertirFrase(cadena1);
+    //      cadena1.setFrase(sc.nextLine());
+    //      cadena1.setLargo(cadena1.getFrase().length());
+          System.out.println("Ingrese una letra para ver si esta en la frase ingresada");
+          String letra = sc.nextLine();
 
-
-
-
+    //      cs.mostrarVocales(cadena1);
+    //      cs.invertirFrase(cadena1);
+    // cs.vecesRepetido(letra, cadena1);
+    // cs.compararLongitud(fraseNueva, cadena1);
+    // cs.unirFrases(cadena1,fraseNueva);
+    //cs.reemplazar(cadena1,caracter);
+      cs.contiene(cadena1, letra);
    }
 }

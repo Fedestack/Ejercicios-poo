@@ -23,8 +23,8 @@ h) Método contiene(String letra), deberá comprobar si la frase contiene una le
 ingresa el usuario y devuelve verdadero si la contiene y falso si no. */
 
 public class Cadena {
-   private String frase = "";
-   private int largo = 0;
+   private String frase = "Este es un string de la clase ";
+   private int largo = 29;
 
    public Cadena() {
    }
